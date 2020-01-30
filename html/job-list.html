@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="description" content="JobBoard - HTML Template" />
+	<meta property="og:title" content="JobBoard - HTML Template" />
+	<meta property="og:description" content="JobBoard - HTML Template" />
+	<meta property="og:image" content="social-image.png" />
+	<meta name="format-detection" content="telephone=no">
+	
+	<!-- FAVICONS ICON -->
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	
+	<!-- PAGE TITLE HERE -->
+	<title>Morjana Jobs</title>
+	
+	<!-- MOBILE SPECIFIC -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+		<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/templete.css">
+	<link rel="stylesheet" type="text/css" href="css/rtl.css">
+	<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
+	<link rel="stylesheet" type="text/css" href="plugins/tagcomplete/tagcomplete.css">
+	
+</head>
+<body id="bg">
+<div class="page-wraper">
+<div id="loading-area"></div>
+	<!-- header -->
+    <header class="site-header mo-left header fullwidth border-bottom">
+		<!-- main header -->
+        <div class="sticky-header main-bar-wraper navbar-expand-lg">
+            <div class="main-bar clearfix">
+                <div class="container clearfix">
+                    <!-- website logo -->
+                    <div class="logo-header mostion">
+						<a href="index-2.html"><img src="images/logo.png" class="logo" alt=""></a>
+					</div>
+                    <!-- nav toggle button -->
+                    <!-- nav toggle button -->
+                    <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+                    <!-- extra nav -->
+                     <div class="extra-nav">
+                        <div class="extra-cell">
+                            <a href="register.html" class="site-button"><i class="fa fa-user"></i> التسجيل</a>
+							<a href="login.html"  class="site-button"><i class="fa fa-lock"></i> الدخول </a>
+							<a href="post-jobs.html" class="apply" >أضافة وظيف؟ </a>
+							<a href="emploee-profile.html" class="apply" >أضافة سيرة ذاتية؟ </a>
+                        </div>
+                    </div>
+                    <!-- main nav -->
+                    <div class="header-nav navbar-collapse collapse justify-content-start" id="navbarNavDropdown">
+                        <ul class="nav navbar-nav">
+							<li >
+								<a href="index.html">الرئيسية </a>
+								
+							</li>
+								<li >
+								<a href="about.html">عن الموقع </a>
+								
+							</li>
+							<li class="active">
+								<a href="job-list.html">البحث عن وظائف </a>
+								
+							</li>
+							<li>
+								<a href="cvs.html">البحث عن موظفين</a>
+								
+							</li>
+					<li>
+								<a href="contact.html">التواصل</a>    <!-- header END -->
+								</li>
+						</ul>			
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header END -->
+    </header>
+    <!-- header END -->
+    <!-- Content -->
+    <div class="page-content bg-white">
+        <!-- inner page banner -->
+        <div class="dez-bnr-inr overlay-black-middle" style="background-image:url(images/banner/bnr1.jpg);">
+            <div class="container">
+                <div class="dez-bnr-inr-entry">
+                    <h1 class="text-white">قائمه الوظائف</h1>
+					<!-- Breadcrumb row -->
+					<div class="breadcrumb-row">
+						<ul class="list-inline">
+							<li><a href="#">الرئيسية</a></li>
+							<li>قائمه الوظائف</li>
+						</ul>
+					</div>
+					<!-- Breadcrumb row END -->
+                </div>
+            </div>
+        </div>
+        <!-- inner page banner END -->
+		<!-- Filters Search -->
+		<div class="section-full browse-job-find">
+			<div class="container">
+				<div class="find-job-bx">
+					<form class="dezPlaceAni">
+						<div class="row">
+							<div class="col-lg-4 col-md-6">
+								<div class="form-group">
+									<label>عنوان الوظيفه - اسم الشركة</label>
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="">
+										<div class="input-group-append">
+										  <span class="input-group-text"><i class="fa fa-search"></i></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="form-group">
+									<label>المدينه - البلد</label>
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="">
+										<div class="input-group-append">
+										  <span class="input-group-text"><i class="fa fa-map-marker"></i></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="form-group">
+									<select>
+										<option>اختر المجال</option>
+										<option>هندسه</option>
+										<option>طب</option>
+										<option>صيدله</option>
+									<option>هندسه</option>
+										<option>طب</option>
+										<option>صيدله</option>
+										
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-6">
+								<button type="submit" class="site-button btn-block">أبحث الان</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Filters Search END -->
+        <!-- contact area -->
+        <div class="content-block">
+			<!-- Browse Jobs -->
+			<div class="section-full browse-job p-b50">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-9 col-lg-8 col-md-7">
+							<div class="job-bx-title clearfix">
+								<h5 class="font-weight-700 pull-left text-uppercase">وظائف الهندسه</h5>
+								<div class="float-right">
+									<span class="select-title">الترتيب</span>
+									<select>
+											<option>اخر شهرين</option>
+											<option>اخر شهر</option>
+											<option>اخر اسبوع</option>
+
+											<option>اخر 3 ايام</option>
+									</select>
+								</div>
+							</div>
+							<ul class="post-job-bx">
+							<li>
+									<div class="post-bx">
+										<div class="job-post-info m-a0">
+											<h4><a href="job-detail.html">مهندس مدني</a></h4>
+											<ul>
+												<li><a href="company-profile.html">@شركة تشيد المعمارية</a></li>
+												<li><i class="fa fa-map-marker"></i> عمان - الأردن</li>
+												<li><i class="fa fa-money"></i> 1000$-2000$</li>
+												<li><i class="fa fa-envelope-o"></i> email@company.com</li>
+											</ul>
+											<div class="job-time m-t15 m-b10">
+												<a href="javascript:void(0);"><span>هندسه</span></a>
+												<a href="javascript:void(0);"><span>مدني</span></a>
+												<a href="javascript:void(0);"><span>خرسانه</span></a>
+												<a href="javascript:void(0);"><span>بناء</span></a>
+											</div>
+											<div class="posted-info clearfix">
+												<p class="m-tb0 text-primary float-left"><span class="text-black m-r10">نشر منذ:</span> يومين</p>
+												<a href="mailto:email@company.com" class="site-button button-sm float-right">طلب الوظيفة</a>
+																					<a href="files/pdf-sample.pdf" class="site-button button-sm float-right" target="blank"><i class="fa fa-download"></i> معلومات عن الوظيفه</a>
+		
+											</div>
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="post-bx">
+										<div class="job-post-info m-a0">
+											<h4><a href="job-detail.html">مهندس مدني</a></h4>
+											<ul>
+												<li><a href="company-profile.html">@شركة تشيد المعمارية</a></li>
+												<li><i class="fa fa-map-marker"></i> عمان - الأردن</li>
+												<li><i class="fa fa-money"></i> 1000$-2000$</li>
+												<li><i class="fa fa-envelope-o"></i> email@company.com</li>
+											</ul>
+											<div class="job-time m-t15 m-b10">
+												<a href="javascript:void(0);"><span>هندسه</span></a>
+												<a href="javascript:void(0);"><span>مدني</span></a>
+												<a href="javascript:void(0);"><span>خرسانه</span></a>
+												<a href="javascript:void(0);"><span>بناء</span></a>
+											</div>
+											<div class="posted-info clearfix">
+												<p class="m-tb0 text-primary float-left"><span class="text-black m-r10">نشر منذ:</span> يومين</p>
+												<a href="mailto:email@company.com" class="site-button button-sm float-right">طلب الوظيفة</a>
+																					<a href="files/pdf-sample.pdf" class="site-button button-sm float-right" target="blank"><i class="fa fa-download"></i> معلومات عن الوظيفه</a>
+		
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="post-bx">
+										<div class="job-post-info m-a0">
+											<h4><a href="job-detail.html">مهندس مدني</a></h4>
+											<ul>
+												<li><a href="company-profile.html">@شركة تشيد المعمارية</a></li>
+												<li><i class="fa fa-map-marker"></i> عمان - الأردن</li>
+												<li><i class="fa fa-money"></i> 1000$-2000$</li>
+												<li><i class="fa fa-envelope-o"></i> email@company.com</li>
+											</ul>
+											<div class="job-time m-t15 m-b10">
+												<a href="javascript:void(0);"><span>هندسه</span></a>
+												<a href="javascript:void(0);"><span>مدني</span></a>
+												<a href="javascript:void(0);"><span>خرسانه</span></a>
+												<a href="javascript:void(0);"><span>بناء</span></a>
+											</div>
+											<div class="posted-info clearfix">
+												<p class="m-tb0 text-primary float-left"><span class="text-black m-r10">نشر منذ:</span> يومين</p>
+												<a href="mailto:email@company.com" class="site-button button-sm float-right">طلب الوظيفة</a>
+																					<a href="files/pdf-sample.pdf" class="site-button button-sm float-right" target="blank"><i class="fa fa-download"></i> معلومات عن الوظيفه</a>
+		
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="post-bx">
+										<div class="job-post-info m-a0">
+											<h4><a href="job-detail.html">مهندس مدني</a></h4>
+											<ul>
+												<li><a href="company-profile.html">@شركة تشيد المعمارية</a></li>
+												<li><i class="fa fa-map-marker"></i> عمان - الأردن</li>
+												<li><i class="fa fa-money"></i> 1000$-2000$</li>
+												<li><i class="fa fa-envelope-o"></i> email@company.com</li>
+											</ul>
+											<div class="job-time m-t15 m-b10">
+												<a href="javascript:void(0);"><span>هندسه</span></a>
+												<a href="javascript:void(0);"><span>مدني</span></a>
+												<a href="javascript:void(0);"><span>خرسانه</span></a>
+												<a href="javascript:void(0);"><span>بناء</span></a>
+											</div>
+											<div class="posted-info clearfix">
+												<p class="m-tb0 text-primary float-left"><span class="text-black m-r10">نشر منذ:</span> يومين</p>
+												<a href="mailto:email@company.com" class="site-button button-sm float-right">طلب الوظيفة</a>
+																					<a href="files/pdf-sample.pdf" class="site-button button-sm float-right" target="blank"><i class="fa fa-download"></i> معلومات عن الوظيفه</a>
+		
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="post-bx">
+										<div class="job-post-info m-a0">
+											<h4><a href="job-detail.html">مهندس مدني</a></h4>
+											<ul>
+												<li><a href="company-profile.html">@شركة تشيد المعمارية</a></li>
+												<li><i class="fa fa-map-marker"></i> عمان - الأردن</li>
+												<li><i class="fa fa-money"></i> 1000$-2000$</li>
+												<li><i class="fa fa-envelope-o"></i> email@company.com</li>
+											</ul>
+											<div class="job-time m-t15 m-b10">
+												<a href="javascript:void(0);"><span>هندسه</span></a>
+												<a href="javascript:void(0);"><span>مدني</span></a>
+												<a href="javascript:void(0);"><span>خرسانه</span></a>
+												<a href="javascript:void(0);"><span>بناء</span></a>
+											</div>
+											<div class="posted-info clearfix">
+												<p class="m-tb0 text-primary float-left"><span class="text-black m-r10">نشر منذ:</span> يومين</p>
+												<a href="mailto:email@company.com" class="site-button button-sm float-right">طلب الوظيفة</a>
+																					<a href="files/pdf-sample.pdf" class="site-button button-sm float-right" target="blank"><i class="fa fa-download"></i> معلومات عن الوظيفه</a>
+		
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="post-bx">
+										<div class="job-post-info m-a0">
+											<h4><a href="job-detail.html">مهندس مدني</a></h4>
+											<ul>
+												<li><a href="company-profile.html">@شركة تشيد المعمارية</a></li>
+												<li><i class="fa fa-map-marker"></i> عمان - الأردن</li>
+												<li><i class="fa fa-money"></i> 1000$-2000$</li>
+												<li><i class="fa fa-envelope-o"></i> email@company.com</li>
+											</ul>
+											<div class="job-time m-t15 m-b10">
+												<a href="javascript:void(0);"><span>هندسه</span></a>
+												<a href="javascript:void(0);"><span>مدني</span></a>
+												<a href="javascript:void(0);"><span>خرسانه</span></a>
+												<a href="javascript:void(0);"><span>بناء</span></a>
+											</div>
+											<div class="posted-info clearfix">
+												<p class="m-tb0 text-primary float-left"><span class="text-black m-r10">نشر منذ:</span> يومين</p>
+												<a href="mailto:email@company.com" class="site-button button-sm float-right">طلب الوظيفة</a>
+																					<a href="files/pdf-sample.pdf" class="site-button button-sm float-right" target="blank"><i class="fa fa-download"></i> معلومات عن الوظيفه</a>
+		
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="post-bx">
+										<div class="job-post-info m-a0">
+											<h4><a href="job-detail.html">مهندس مدني</a></h4>
+											<ul>
+												<li><a href="company-profile.html">@شركة تشيد المعمارية</a></li>
+												<li><i class="fa fa-map-marker"></i> عمان - الأردن</li>
+												<li><i class="fa fa-money"></i> 1000$-2000$</li>
+												<li><i class="fa fa-envelope-o"></i> email@company.com</li>
+											</ul>
+											<div class="job-time m-t15 m-b10">
+												<a href="javascript:void(0);"><span>هندسه</span></a>
+												<a href="javascript:void(0);"><span>مدني</span></a>
+												<a href="javascript:void(0);"><span>خرسانه</span></a>
+												<a href="javascript:void(0);"><span>بناء</span></a>
+											</div>
+											<div class="posted-info clearfix">
+												<p class="m-tb0 text-primary float-left"><span class="text-black m-r10">نشر منذ:</span> يومين</p>
+												<a href="mailto:email@company.com" class="site-button button-sm float-right">طلب الوظيفة</a>
+																					<a href="files/pdf-sample.pdf" class="site-button button-sm float-right" target="blank"><i class="fa fa-download"></i> معلومات عن الوظيفه</a>
+		
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="pagination-bx m-t30">
+								<ul class="pagination">
+									<li class="previous"><a href="javascript:void(0);"><i class="ti-arrow-left"></i> Prev</a></li>
+									<li class="active"><a href="javascript:void(0);">1</a></li>
+									<li><a href="javascript:void(0);">2</a></li>
+									<li><a href="javascript:void(0);">3</a></li>
+									<li class="next"><a href="javascript:void(0);">Next <i class="ti-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-5">
+							<div class="sticky-top">
+										<div class="quote-bx">
+									<div class="quote-info">
+										<h4>Google adsense!</h4>
+										<p>أغتنم وظيفك احلانمك في شركة تشيد العقارية</p>
+										<a href="register.html" class="site-button">أضغط هنا</a>
+									</div>
+								</div>
+								<div class="quote-bx">
+									<div class="quote-info">
+										<h4>Google adsense!</h4>
+										<p>أغتنم وظيفك احلانمك في شركة تشيد العقارية</p>
+										<a href="register.html" class="site-button">أضغط هنا</a>
+									</div>
+								</div>
+								<ul class="company-logo-wg sidebar bg-white job-bx m-b30 clearfix">
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo1.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo2.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo3.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo4.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo5.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo6.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo7.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo8.jpg" alt="">
+										</a>
+									</li>
+									<li class="brand-logo">
+										<a href="javascript:void(0);">
+											<img src="images/logo/logo9.jpg" alt="">
+										</a>
+									</li>
+								</ul>								
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- Browse Jobs END -->
+		</div>
+    </div>
+    <!-- Content END-->
+		<!-- Modal Box End -->
+		<div class="google-ads">
+		<div class="container">
+		<div class="row">
+		<img src="images/google-ads.png" />
+		</div>
+		</div>
+		</div>
+	<!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+					<div class="col-xl-5 col-lg-4 col-md-12 col-sm-12">
+                        <div class="widget">
+                            <img src="images/logo.png" width="180" class="m-b15" alt=""/>
+							<p class="text-capitalize m-b20">فقط قم بملأ البيانات وسجل معنا حتي تتواصل مع أصحاب الوظائف الشاغرة..</p>
+                            <div class="subscribe-form m-b20">
+								<form class="dzSubscribe" action="" method="post">
+									<div class="dzSubscribeMsg"></div>
+									<div class="input-group">
+										<input name="dzEmail" required="required"  class="form-control" placeholder="ادخل ايميلك" type="email">
+										<span class="input-group-btn">
+											<button name="submit" value="Submit" type="submit" class="site-button radius-xl">اشتراك</button>
+										</span> 
+									</div>
+								</form>
+							</div>
+							<ul class="list-inline m-a0">
+								<li><a href="javascript:void(0);" class="site-button white facebook circle "><i class="fa fa-facebook"></i></a></li>
+								<li><a href="javascript:void(0);" class="site-button white google-plus circle "><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="javascript:void(0);" class="site-button white linkedin circle "><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="javascript:void(0);" class="site-button white instagram circle "><i class="fa fa-instagram"></i></a></li>
+								<li><a href="javascript:void(0);" class="site-button white twitter circle "><i class="fa fa-twitter"></i></a></li>
+							</ul>
+                        </div>
+                    </div>
+					<div class="col-xl-5 col-lg-5 col-md-8 col-sm-8 col-12">
+                        <div class="widget border-0">
+                            <h5 class="m-b30 text-white">اهم الصفحات</h5>
+                            <ul class="list-2 list-line">
+                                <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                                <li><a href="rules.html">الشروط والأحكام</a></li>
+                                <li><a href="usage.html">كيفيه استخدام الموقع</a></li>
+                                <li><a href="contact.html">التواصل </a></li>
+                                <li><a href="about.html">عن الموقع</a></li>
+								<li><a href="faq.html">الأسئلة الشائعة</a></li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-12">
+                        <div class="widget border-0">
+                            <h5 class="m-b30 text-white">معلومات التواصل</h5>
+                            <ul class="list-2 w10 list-line">
+                                <li><a href="javascript:void(0);">الجوال :1294899999999</a></li>
+                                <li><a href="javascript:void(0);">الايميل :domain@gmail.com</a></li>
+                                <li><a href="javascript:void(0);">فاكس :13555667777</a></li>
+                             
+                            </ul>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </div>
+        <!-- footer bottom part -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+						<span> © جميع الحقوق محفوظةموقع مرجانة <i class="fa fa-heart m-lr5 text-red heart"></i>
+						<a href="javascript:void(0);">تصميم </a> ولاء رمضان.</span> 
+					</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer END -->
+    <button class="scroltop fa fa-chevron-up"></button>
+</div>
+<!-- JAVASCRIPT FILES ========================================= -->
+<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+<script src="plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+<script src="plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script src="plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
+<script src="plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY -->
+<script src="plugins/masonry/masonry.filter.js"></script><!-- MASONRY -->
+<script src="plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
+<script src="plugins/switcher/js/switcher.js"></script><!-- SWITCHER FUCTIONS  -->
+<script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+<script src="js/dz.carousel.js"></script><!-- SORTCODE FUCTIONS  -->
+<script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
+</body>
+
+</html>

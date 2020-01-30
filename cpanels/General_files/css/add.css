@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 31, 2019, 3:57:49 AM
+    Author     : harrypotter
+*/
+.input-group .input-group-addon {
+    border-radius: 0;
+    border-color: #d2d6de;
+    background-color: #00c0ef;
+    color: white;
+}
+.file-field.big .file-path-wrapper {
+height: 3.2rem; }
+.file-field.big .file-path-wrapper .file-path {
+height: 3rem; }
+input[type=file] {
+    display: block;
+}
+
+.custom-file-input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="file" ] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+textarea.form-control.custom-control {
+    text-align: right;
+    font-size: 14px;
+    height: 80%;
+}
+.control-fileupload {
+    display: block;
+    margin-left: 10px;
+    border: 1px solid #d6d7d6;
+    background: #FFF;
+    border-radius: 4px;
+    width: 98%;
+    height: 36px;
+    line-height: 36px;
+    padding: 1px 7px 1px 10px;
+    overflow: hidden;
+    position: relative;
+  
+
+}
+.box {
+    border-color: #e6e6e6;
+    background: #FFF;
+    border-radius: 6px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); */
+    padding: 10px;
+    margin-bottom: 40px;
+}
+input.form-control {
+    text-align: right;
+}
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+    width: 98%;
+}
+.bg-green, .callout.callout-success, .alert-success, .label-success, .modal-success .modal-body {
+    background-color: #00a65a !important;
+    text-align: center;
+    font-size: 18px;
+}
+select.input-lg {
+    height: 46px;
+    line-height: 46px;
+    text-align: right !important;
+    direction: rtl;
+}
+textarea.form-control.custom-control:hover {
+    background: #f1f1f1;
+}
+select#sel1 {
+    font-size: 15px;
+    font-weight: 700;
+}
+a.list-group-item.active {
+    font-size: 17px;
+    text-align: center;
+    border: none;
+    background: #00c0ef;
+}
+a.list-group-item {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+}
+a.list-group-item.sfd {
+    background: aliceblue;
+    border: #003744 solid !important;
+}
+a.list-group-item.sfd {
+    background: aliceblue;
+    border: #e8e8e8 solid 1px !important;
+}
+a.list-group-item.sfd:focus {
+    background: #55deff;
+    color: white;
+    border: #e8e8e8 solid 1px !important;
+    font-size: 18px;
+}
